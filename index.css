@@ -2,6 +2,17 @@ body {
 	background-color: #000
 }
 
+#heading {
+	font-family: courier, monospace;
+	color: rgb(15, 124, 15);
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	font-size:48px;
+	font-weight: bolder;
+}
+
 #console {
 	font-family: courier, monospace;
 	color: #0f0;
@@ -9,7 +20,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:100px;
-	font-size:14px;
+	font-size:24px;
 }
 
 a {
@@ -21,24 +32,21 @@ a {
 	color: #0f0;
 }
 
-#c {
+#prompt {
 	color: #0bc;
+	font-weight: bolder;
+	font-size:24px;
 }
 
-#b {
+#tilda {
 	color: #ff0096;
 }
 
-/* #k {
-    	animation: change 1s;
-} */
-
-#op{
-    	color: #888888
+#para {
+	color: #e7d807;
+	font-weight: bolder;
 }
 
-/* @keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
-    	99% { color: black; }
-} */
+#colon, #dolla{
+    	color: #888888
+}
